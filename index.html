@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Savings</title>
+  </head>
+  <body>
+
+    <div id="calculator">
+      <label for="fixedSalary">Fixed Salary: </label>
+      <input type="number" id="fixedSalary" placeholder="Enter Fixed Salary" />
+
+      <label for="savingsPercentage">Savings Percentage: </label>
+      <input
+        type="number"
+        id="savingsPercentage"
+        placeholder="Enter Savings Percentage"
+      />
+
+      <label for="raisePercentage">Raise Percentage: </label>
+      <input
+        type="number"
+        id="raisePercentage"
+        placeholder="Enter Raise Percentage"
+      />
+
+      <label for="initialAge">Initial Age: </label>
+      <input type="number" id="initialAge" placeholder="Enter Retirement Age" />
+
+      <label for="retirementAge">Retirement Age: </label>
+      <input
+        type="number"
+        id="retirementAge"
+        placeholder="Enter Retirement Age"
+      />
+
+      <button onclick="calculate()">Calculate</button>
+
+      <p id="result"></p>
+    </div>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
